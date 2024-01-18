@@ -1,4 +1,4 @@
-const _apiUrl = "/servicetickets";
+const _apiUrl = "/api/servicetickets";
 
 export const getServiceTickets = () => {
   return fetch(_apiUrl).then((r) => r.json());
